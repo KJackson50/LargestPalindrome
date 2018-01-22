@@ -1,0 +1,12 @@
+#'s to multiply - 100 - 999 (no need to multiply these numbers in the code really, you just need lowest product and highest product)
+product range - 10000 - 998001 (make these into variables to scale for later use)
+
+-loop through lowest to highest product / turn (int) into a String
+-count digits in String / find Palindrome by checking the following
+  -for 5 digits - check first and last && middle 3
+  -for 5 digits - check first and last && 2nd and 4th
+  -for 6 digits - check first and last && middle 4
+  -for 6 digits - check first and last && 2nd and 5th && middle 2
+-if any match, convert string to int / add to palindrome array
+-if not, keep looping through product range
+-at end find largest Palindrome in Palindrome array / print out
