@@ -1,6 +1,7 @@
-#'s to multiply - 100 - 999 (no need to multiply these numbers in the code really, you just need lowest product and highest product)
-product range - 10000 - 998001 (make these into variables to scale for later use)
+#'s to multiply - 100 - 999 (NEED TO MULTIPLY, NOT EVERY NUMBER IN 'PRODUCT RANGE' IS A MULTIPLE OF THE 3 DIGIT NUMBERS!!!!!)
+product range - 10000 - 998001
 
+-multiply the product of all three digit numbers
 -loop through lowest to highest product / turn (int) into a String
 -count digits in String / find Palindrome by checking the following
   -for 5 digits - check first and last && middle 3
