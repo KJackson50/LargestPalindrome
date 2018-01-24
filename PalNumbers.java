@@ -64,5 +64,11 @@ public class PalNumbers {
 	
 	//NEED TO CREATE A FUNCTION THAT MULTIPLIES ALL NUMBERS BETWEEN 100 - 999
 	//AGAINST EACHOTHER, AND RETURNS AN ARRAY OF THOSE PRODUCTS
+	
+	//One example, we can put the range of 100 - 999 in an array, then multiply 100 - 999 against it
+	//will need to find a way to iterate 100*array, then store those products in a separate array
+	//once 100 is done multiplying, go on to 101, but make sure 101 doesn't multiply into 100 again
+	//so on and so forth until the end.
+	
 
 }
